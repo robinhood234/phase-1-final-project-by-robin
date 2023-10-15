@@ -50,3 +50,19 @@ form #search-button {
   font-size: 18px;
 
 }
+::placeholder {
+  color: #000;
+  font-size: 18px;
+}
+
+#show-more-btn {
+  padding: 8px;
+  font-size: 18px;
+  display: none;
+ margin: 9px auto 100px;
+ background: #000;
+ color: white;
+ cursor: pointer;
+ border-radius: 5px;
+ border: 0;
+}
