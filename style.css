@@ -11,9 +11,12 @@ body {
 }
 
 #header-1 {
-  background:#ececec;
+  background: #ececec;
   margin-bottom: 35px;
+  position: sticky;
+  top: 0;
 }
+
 h1 {
   text-align: left;
   margin: 43px auto 45px;
