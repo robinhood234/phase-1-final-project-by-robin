@@ -41,3 +41,8 @@ async function ImageSearch () {
       page=1
       ImageSearch();
     });
+
+    showMoreBtn.addEventListener('click', ()=>{
+      page + 1;
+      ImageSearch()
+    })
