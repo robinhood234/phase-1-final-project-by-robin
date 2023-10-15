@@ -24,3 +24,8 @@ async function ImageSearch () {
   results.map((result) =>{
     const image = document.createElement('img');
     image.src = result.urls.small;
+
+    const imageLink = document.createElement('a'); 
+    imageLink.href = result.links.html;
+    imageLink.appendChild(image);
+    searchResult.appendChild(imageLink);
