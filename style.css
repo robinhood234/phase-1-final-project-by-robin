@@ -9,3 +9,8 @@ body {
   background-image: url(images-folder/fancy-cushion.webp);
   color: rgb(0, 0, 0);
 }
+
+#header-1 {
+  background:#ececec;
+  margin-bottom: 35px;
+}
