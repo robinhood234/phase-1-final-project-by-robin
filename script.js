@@ -46,3 +46,10 @@ async function ImageSearch () {
       page + 1;
       ImageSearch()
     })
+
+    refreshBtn.addEventListener('click', (e) =>{
+      searchResult.innerHTML = "";
+    e.preventDefault();
+    showMoreBtn.style.display = 'none';
+    searchBox.value = '';
+    })
