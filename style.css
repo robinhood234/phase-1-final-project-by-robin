@@ -20,3 +20,9 @@ h1 {
   font-weight: 600px;
   display: inline-block;
  }
+ form {
+  justify-content: right;
+  display:inline-flex ;
+  margin: 45px 90px  45px;
+
+}
