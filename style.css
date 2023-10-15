@@ -83,3 +83,14 @@ form #search-button {
   object-fit: cover;
   height: 300px;
 }
+
+form #refresh {
+  display:none;
+  position:absolute;
+  margin-right: 90px;
+  margin-top: 8px;
+  border:none;
+  font-size: larger;
+  color: black;
+  cursor: pointer;
+}
