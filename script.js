@@ -8,3 +8,10 @@ const refreshBtn = document.getElementById('refresh');
 
 let keyWord = '';
 let page = 1;
+
+async function ImageSearch () {
+  keyWord = searchBox.value;
+  const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyWord}&client_id=${accessKey}&per_page=12`;
+
+  const response = await fetch(url);
+  const data = await response.json();
