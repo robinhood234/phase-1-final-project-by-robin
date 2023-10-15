@@ -15,3 +15,12 @@ async function ImageSearch () {
 
   const response = await fetch(url);
   const data = await response.json();
+
+  const results = data.results;
+
+
+
+
+  results.map((result) =>{
+    const image = document.createElement('img');
+    image.src = result.urls.small;
