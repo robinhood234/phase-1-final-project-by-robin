@@ -29,3 +29,9 @@ async function ImageSearch () {
     imageLink.href = result.links.html;
     imageLink.appendChild(image);
     searchResult.appendChild(imageLink);
+
+    imageLink.target = '_blank';
+    showMoreBtn.style.display = 'block';
+    refreshBtn.style.display = 'block';
+      })
+    }
